@@ -34,6 +34,20 @@ ol, ul {
   padding: 0 0 0 1rem;
 }
 
+blockquote {
+  margin-left: 1rem;
+  position: relative;
+}
+
+blockquote:before {
+  color: grey;
+  content: "“";
+  font-size: 200%;
+  left: -1rem;
+  position: absolute;
+  top: -0.5rem;
+}
+
 .feedback {
   background-color: rgb(229, 239, 229);
   border: 1px solid darkgreen;
